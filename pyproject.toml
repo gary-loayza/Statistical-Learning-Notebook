@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "Introduction-to-Statistical-Learning"
+version = "0.1.0"
+description = "My notes on the text"
+authors = ["Gary Loayza <loayzag91@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+numpy = "^1.19.0"
+pandas = "^1.0.5"
+matplotlib = "^3.2.2"
+plotly = "^4.8.2"
+cufflinks = "^0.17.3"
+seaborn = "^0.10.1"
+chart-studio = "^1.1.0"
+pandas-datareader = "^0.9.0"
+scikit-learn = "^0.23.1"
+jupyter_contrib_nbextensions = "^0.5.1"
+jupyter_latex_envs = "^1.4.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
